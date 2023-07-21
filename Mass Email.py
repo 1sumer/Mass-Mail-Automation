@@ -12,7 +12,7 @@ from tkinter import filedialog
 smtp_server = 'smtp-relay.sendinblue.com'
 smtp_port = 587
 smtp_username = 'your user name'
-smtp_password = 'password
+smtp_password = 'password'
 
 # Connect to the SMTP server
 smtp_connection = smtplib.SMTP(smtp_server, smtp_port)
